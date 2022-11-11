@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/card_4"
+    tools:context=".FourthFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fourth"
+                android:scaleType="centerCrop">
+            </pl.droidsonroids.gif.GifImageView>
+
+        </LinearLayout>
+
+
+        <!--   categories     -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="0dp"
+                android:text="Dev Info"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginStart="5dp"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="horizontal">
+
+                                    <pl.droidsonroids.gif.GifImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_marginTop="4dp"
+                                        android:layout_marginStart="3dp"
+                                        android:src="@drawable/phone"
+                                        android:scaleType="fitCenter">
+                                    </pl.droidsonroids.gif.GifImageView>
+
+                                </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/phone_vishu"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="55dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="17dp"
+                                    android:layout_marginStart="0dp"
+                                    android:text="Phone"
+                                    android:textColor="@color/mapboxBlue"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    >
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <pl.droidsonroids.gif.GifImageView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="4dp"
+                                    android:layout_marginStart="3dp"
+                                    android:src="@drawable/email"
+                                    android:scaleType="fitCenter">
+                                </pl.droidsonroids.gif.GifImageView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/email_vishu"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="55dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginTop="17dp"
+                                    android:layout_marginStart="0dp"
+                                    android:text="Email"
+                                    android:textColor="@color/mapboxBlue"
+                                    android:textSize="18sp"
+                                    android:textStyle="bold"
+                                    >
+                                </TextView>
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="5dp"
+                        app:cardCornerRadius="2000dp"
+                        app:cardElevation="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/vishu"/>
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+<!--            Akshat joshi card-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginStart="5dp"
+                    app:cardCornerRadius="2000dp"
+                    app:cardElevation="10dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/akshat_one"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginStart="3dp"
+                                android:src="@drawable/phone"
+                                android:scaleType="fitCenter">
+                            </pl.droidsonroids.gif.GifImageView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/phone_akshat"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="55dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_marginStart="0dp"
+                                android:text="Phone"
+                                android:textColor="@color/mapboxBlue"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                >
+                            </TextView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginStart="3dp"
+                                android:src="@drawable/email"
+                                android:scaleType="fitCenter">
+                            </pl.droidsonroids.gif.GifImageView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/email_akshat"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="55dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="17dp"
+                                android:layout_marginStart="0dp"
+                                android:text="Email"
+                                android:textColor="@color/mapboxBlue"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                >
+                            </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+            <!--      -->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_marginStart="7dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/linkedin"
+                            android:scaleType="fitCenter">
+                        </ImageView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/instagram"
+                            android:scaleType="centerCrop">
+
+
+                        </ImageView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="@color/white"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="4dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/github"
+                            android:scaleType="centerCrop">
+
+
+                        </ImageView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:backgroundTint="@color/white"
+                    android:id="@+id/shareApp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/share"
+                            android:scaleType="fitCenter">
+                        </pl.droidsonroids.gif.GifImageView>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="280dp"
+                android:layout_height="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="@color/white"
+                app:cardElevation="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/chatbox"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="70dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/chat"
+                            >
+                        </pl.droidsonroids.gif.GifImageView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="80dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chat with us"
+                            android:textColor="@color/mapboxBlue"
+                            android:textSize="21sp" />
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/razormoney"
+                    android:layout_width="315dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="30dp"
+                    app:cardCornerRadius="10dp"
+                    android:backgroundTint="@color/white"
+                    app:cardElevation="20dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="80dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Buy us a samosa plate"
+                            android:textColor="@color/mapboxBlue"
+                            android:textStyle="italic"
+                            android:textSize="21sp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/samosa"
+                            >
+                        </pl.droidsonroids.gif.GifImageView>
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

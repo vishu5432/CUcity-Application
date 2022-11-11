@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "581149601376",
+    "firebase_url": "https://cucity-default-rtdb.firebaseio.com",
+    "project_id": "cucity",
+    "storage_bucket": "cucity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581149601376:android:4e604a36da46f39e35dd05",
+        "android_client_info": {
+          "package_name": "com.vishugahlot.cucity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581149601376-8u0mc015ujdnddg5gtmm8tt54t8mfkqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vishugahlot.cucity",
+            "certificate_hash": "f88abd5fc434c109383232a772c77007d6a842e1"
+          }
+        },
+        {
+          "client_id": "581149601376-atki1pl2bpc6662195iipf3dlk98j6g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtgxn41jt0aW54qKGqmOPjLQ6-AIWeggU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581149601376-atki1pl2bpc6662195iipf3dlk98j6g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
