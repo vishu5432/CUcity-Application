@@ -1,5 +1,6 @@
 package com.vishugahlot.cucity
 
+import android.app.Fragment
 import android.content.ActivityNotFoundException
 import android.content.ComponentName
 import android.content.Intent
